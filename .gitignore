@@ -1,5 +1,7 @@
 HELP.md
 target/
+src/main/resources/static
+ui-src/public/js
 ui-src/node_modules
 ui-src/package-lock.json
 !.mvn/wrapper/maven-wrapper.jar
