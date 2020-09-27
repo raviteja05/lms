@@ -1,0 +1,215 @@
+[
+  {
+    "questionType": "MCQ",
+    "description": "MapReduce is usually used for",
+    "options": [
+      {
+        "description": "Batch data processing",
+        "correctOption": true
+      },
+      {
+        "description": "Interactive data analysis"
+      },
+      {
+        "description": "Both"
+      },
+      {
+        "description": "None"
+      }
+    ],
+    "topic": "Big Data",
+    "subTopic": "Introduction to Big Data and Hadoop"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "Architecture of MapReduce allows to hold working data in memory",
+    "options": [
+      {
+        "description": "\"true\"",
+        "correctOption": false
+      },
+      {
+        "description": "\"false\"",
+        "correctOption": true
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "MapReduce databases can be scaled linearly ",
+    "options": [
+      {
+        "description": "\"true\"",
+        "correctOption": true
+      },
+      {
+        "description": "\"false\"",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "MapReduce works by breaking the processing into two phases: the map phase and thereduce phase. ",
+    "options": [
+      {
+        "description": "\"true\"",
+        "correctOption": true
+      },
+      {
+        "description": "\"false\"",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "YARN is a",
+    "options": [
+      {
+        "description": "SQL query executor",
+        "correctOption": false
+      },
+      {
+        "description": "Clusterresource management system",
+        "correctOption": true
+      },
+      {
+        "description": "MapReduce alternative",
+        "correctOption": false
+      },
+      {
+        "description": "Underlying storage for HDFS",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "Which database suits Write once, read many times model",
+    "options": [
+      {
+        "description": "RDBMS",
+        "correctOption": false
+      },
+      {
+        "description": "Grid computing",
+        "correctOption": false
+      },
+      {
+        "description": "MapReduce",
+        "correctOption": true
+      },
+      {
+        "description": "None",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "Hadoop works well on",
+    "options": [
+      {
+        "description": "Structured Data",
+        "correctOption": false
+      },
+      {
+        "description": "Unstructured data",
+        "correctOption": false
+      },
+      {
+        "description": "semi-structured data",
+        "correctOption": false
+      },
+      {
+        "description": "Both Unstructured and semi-Structured data",
+        "correctOption": true
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "Hadoop tries to store the data",
+    "options": [
+      {
+        "description": "Remotely on a different node",
+        "correctOption": false
+      },
+      {
+        "description": "Locally on compute node",
+        "correctOption": true
+      },
+      {
+        "description": "in Cloud",
+        "correctOption": false
+      },
+      {
+        "description": "In the master node",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "MapReduce handles failures by",
+    "options": [
+      {
+        "description": "Ignoring the failures and logging it in external log file in master node",
+        "correctOption": false
+      },
+      {
+        "description": "detecting failed tasks and rescheduling them on replacement machines that are healthy",
+        "correctOption": true
+      },
+      {
+        "description": "trying to reinvoke tasks in the failed node",
+        "correctOption": false
+      },
+      {
+        "description": "Aborting the job and wait for user input",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  },
+  {
+    "questionType": "MCQ",
+    "description": "Which phase in MapReduce is used for data preparation",
+    "options": [
+      {
+        "description": "Map phase",
+        "correctOption": true
+      },
+      {
+        "description": "Reduce phase",
+        "correctOption": false
+      },
+      {
+        "description": "Both Map phase and Reduce phase",
+        "correctOption": false
+      },
+      {
+        "description": "None",
+        "correctOption": false
+      }
+    ],
+    "subTopic": "Introduction to Big Data and Hadoop",
+    "topic": "Big Data"
+  }
+]
