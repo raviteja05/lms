@@ -14,7 +14,7 @@ class RegisterForm extends React.Component {
     );
   }
   onSubmit(ev, props) {
-    ev.preventDefault();
+   
     console.log(props.values);
     axios.post("/register", props.values);
   }
@@ -67,6 +67,8 @@ class RegisterForm extends React.Component {
               <div class="controls">
                 <button
                   class="btn btn-info btn-block my-4 col-3"
+                  type="submit"
+
                   onClick={(ev) => this.onSubmit(ev, this.props.formData)}
                 >
                   Register

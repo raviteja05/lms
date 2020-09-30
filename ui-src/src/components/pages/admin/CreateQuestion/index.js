@@ -2,7 +2,7 @@ import React from "react";
 import { Field, reduxForm } from "redux-form";
 import { connect } from "react-redux";
 import { addOptions } from "../../../../actions";
-import axios from "axios";
+import '../../../../vendor/custom.css'
 class CreateQuestionForm extends React.Component {
   textarea(props) {
     return (
