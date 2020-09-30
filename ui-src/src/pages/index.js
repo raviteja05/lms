@@ -4,6 +4,7 @@ import {createStore,applyMiddleware} from 'redux'
 import thunk from 'redux-thunk';
 import reducers from '../reducers';
 import App from '../App';
+import '../vendor/bootstrap.min.css'
 
 
 export const renderComponents=(components)=>{

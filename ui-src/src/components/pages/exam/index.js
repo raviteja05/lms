@@ -1,6 +1,7 @@
 import React from "react";
 import { Field } from "redux-form";
 import Axios from "axios";
+import '../../../vendor/custom.css'
 export const ExamSection = ({
   data,
   fetchCurrentQuestion,
